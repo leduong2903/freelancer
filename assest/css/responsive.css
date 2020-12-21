@@ -1,0 +1,188 @@
+/*  */
+@media only screen and (max-width:353px){
+     .checkbtn{
+          display: block;
+          float: left;
+     }
+     .menu__nav-bar{
+          position: fixed;
+          width: 100%;
+          height: 120px;
+          background: #2C3E50;
+          left: 0;
+          top: 100px;
+          padding:0 20px;
+          display: none;
+     }
+     .menu__nav-bar-item{
+          padding:5px 0;
+     }
+     #check:checked ~.menu__nav-bar{
+          display: block;
+     }
+     .main .container{
+          padding:0;
+     }
+     .menu{
+          display: block;
+     }
+     .banner__desc{
+          margin-top:0;
+     }
+     .banner__highline-left,
+     .banner__highline-right,
+     .selection__highline-left,
+     .selection__highline-right,
+     .about__highline-right,
+     .about__highline-left,
+     .contact__highline-right,
+     .contact__highline-left{
+          max-width: 25%;
+     }
+     .about__box{
+          display: block;
+     }
+     .contact__box-form,
+     .contact__button{
+          padding:0;
+     }
+     .footer__box{
+          display: block;
+
+     }
+     .footer__box-col{
+          padding:5px 0;
+     }
+     .footer__box-social{
+          justify-content: center;
+     }
+}
+/* Extra device */
+@media only screen and (min-width:354px) and (max-width:575.98px){
+     .checkbtn{
+          display: block;
+     }
+     .menu__nav-bar{
+          position: fixed;
+          width: 100%;
+          height: 120px;
+          background: #2C3E50;
+          left: 0;
+          top: 100px;
+          padding:0 20px;
+          display: none;
+     }
+     .menu__nav-bar-item{
+          padding:5px 0;
+     }
+     #check:checked ~.menu__nav-bar{
+          display: block;
+     }
+     .main .container{
+          padding:0;
+     }
+     .banner__highline-left,
+     .banner__highline-right,
+     .selection__highline-left,
+     .selection__highline-right,
+     .about__highline-right,
+     .about__highline-left,
+     .contact__highline-right,
+     .contact__highline-left{
+          max-width: 35%;
+     }
+     .banner__desc{
+          margin-top:0;
+     }
+     .about__box{
+          display: block;
+     }
+     .contact__box-form,
+     .contact__button{
+          padding:0;
+     }
+     .footer__box{
+          display: block;
+
+     }
+     .footer__box-col{
+          padding:10px 0;
+     }
+     .footer__box-social{
+          justify-content: center;
+     }
+}
+/* Smail device */
+@media only screen and (min-width:576px) and (max-width:767.98px){
+     .checkbtn{
+          display: block;
+     }
+     .menu__nav-bar{
+          position: fixed;
+          width: 100%;
+          height: 120px;
+          background: #2C3E50;
+          left: 0;
+          top: 100px;
+          padding:0 20px;
+          display: none;
+     }
+     .menu__nav-bar-item{
+          padding:5px 0;
+     }
+     #check:checked ~.menu__nav-bar{
+          display: block;
+     }
+     .selection__box{
+          padding: 0 65px;
+     }
+     .selection__box-items{
+          width:400px;
+          height:320px;
+     }
+     .contact__box-form,
+     .contact__button{
+          padding:0 100px;
+     }
+     .footer__box{
+          display: block;
+     }
+     .footer__box-col{
+          padding:10px 0;
+     }
+     .footer__box-social{
+          justify-content: center;
+     }
+     .about__box{
+          display: block;
+     }
+}
+/* Medium device */
+@media only screen and (min-width:768px) and (max-width:991.98px){
+     .checkbtn{
+          display: block;
+     }
+     .menu__nav-bar{
+          position: fixed;
+          width: 100%;
+          height: 120px;
+          background: #2C3E50;
+          left: 0;
+          top: 100px;
+          padding:0 120px;
+          display: none;
+     }
+     .menu__nav-bar-item{
+          padding:5px 0;
+     }
+     #check:checked ~.menu__nav-bar{
+          display: block;
+     }
+     .footer__box-col{
+          padding:0 50px;
+     }
+     .contact__box-form,
+     .contact__button{
+          padding:0 50px;
+     }
+}
